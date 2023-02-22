@@ -221,6 +221,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &425926847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8998338694937482972, guid: 7f83ca344d5d3214582d389ed7ee9f0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8998338695583949917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &450964901
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,12 +565,6 @@ Transform:
   m_Father: {fileID: 1312384040}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1158751856 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5291237519715694324, guid: 8d82827cd2828ae43b445c5d3906cc01,
-    type: 3}
-  m_PrefabInstance: {fileID: 5291237519625219777}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1312384037
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,37 +629,6 @@ Transform:
   - {fileID: 972130333}
   m_Father: {fileID: 662466772}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1340053354
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1340053355}
-  m_Layer: 0
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1340053355
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340053354}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1158751856}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1534828915
 GameObject:
@@ -1817,12 +1786,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!1 &1736633647 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5291237519307012136, guid: 8d82827cd2828ae43b445c5d3906cc01,
-    type: 3}
-  m_PrefabInstance: {fileID: 5291237519625219777}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5291237519625219777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1830,12 +1793,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1469549985586673798, guid: 8d82827cd2828ae43b445c5d3906cc01,
-        type: 3}
-      propertyPath: projectile
-      value: 
-      objectReference: {fileID: 8998338694937482972, guid: 7f83ca344d5d3214582d389ed7ee9f0a,
-        type: 3}
     - target: {fileID: 5291237519307012136, guid: 8d82827cd2828ae43b445c5d3906cc01,
         type: 3}
       propertyPath: m_Name
@@ -1896,146 +1853,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5291237519625219783, guid: 8d82827cd2828ae43b445c5d3906cc01,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 455708121}
+    - target: {fileID: 5291237519625219783, guid: 8d82827cd2828ae43b445c5d3906cc01,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5291237519625219778}
+    - target: {fileID: 5291237519625219783, guid: 8d82827cd2828ae43b445c5d3906cc01,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291237519625219783, guid: 8d82827cd2828ae43b445c5d3906cc01,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SpawnObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291706888122339990, guid: 8d82827cd2828ae43b445c5d3906cc01,
+        type: 3}
+      propertyPath: originalObject
+      value: 
+      objectReference: {fileID: 425926847}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d82827cd2828ae43b445c5d3906cc01, type: 3}
---- !u!114 &5291237519625219783
+--- !u!114 &5291237519625219778 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8291706888122339990, guid: 8d82827cd2828ae43b445c5d3906cc01,
+    type: 3}
+  m_PrefabInstance: {fileID: 5291237519625219777}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736633647}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7afec25b2b733754eaa495384d89b55a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 455708121}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 1
-  m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1469549985586673798, guid: 8d82827cd2828ae43b445c5d3906cc01,
-          type: 3}
-        m_TargetAssemblyTypeName: PaintballGun, Assembly-CSharp
-        m_MethodName: SpawnProjectile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_AttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
-  m_MatchAttachPosition: 1
-  m_MatchAttachRotation: 1
-  m_SnapToColliderVolume: 1
-  m_AttachEaseInTime: 0.15
-  m_MovementType: 1
-  m_VelocityDamping: 1
-  m_VelocityScale: 1
-  m_AngularVelocityDamping: 1
-  m_AngularVelocityScale: 1
-  m_TrackPosition: 1
-  m_SmoothPosition: 1
-  m_SmoothPositionAmount: 5
-  m_TightenPosition: 0.5
-  m_TrackRotation: 1
-  m_SmoothRotation: 1
-  m_SmoothRotationAmount: 5
-  m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
-  m_ThrowSmoothingDuration: 0.25
-  m_ThrowSmoothingCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
-  m_StartingSingleGrabTransformers: []
-  m_StartingMultipleGrabTransformers: []
-  m_AddDefaultGrabTransformers: 1
 --- !u!1001 &8998338695583949917
 PrefabInstance:
   m_ObjectHideFlags: 0
