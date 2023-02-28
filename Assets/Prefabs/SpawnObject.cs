@@ -13,7 +13,7 @@ public class SpawnObject : MonoBehaviour
 
     public void Spawn()
     {
-        Instantiate(originalObject, spawnPosition.position, originalObject.transform.rotation);
+        Instantiate(originalObject, spawnPosition.position, spawnPosition.transform.rotation);
     }
 
     private void OnValidate()
