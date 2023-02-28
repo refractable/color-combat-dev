@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private float speed = 10;
+    private float speed = 20;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class Projectile : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision collision)
 	{
         Destroy(gameObject);
 	}
