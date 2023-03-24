@@ -1335,6 +1335,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1667372213}
     m_Modifications:
+    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: ReloadMethod
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: RecoilForce.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: ValidLayers.m_Bits
+      value: 1281
+      objectReference: {fileID: 0}
     - target: {fileID: 1315494898245370582, guid: 81452bf225f55a54b87f08a212257ac0,
         type: 3}
       propertyPath: m_Name
@@ -1394,6 +1409,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987205843388, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: GrabPoints.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987294098070, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: HandPose
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987294098070, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: RightHandIsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987294098089, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2236
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987294098089, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0311
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987431339342, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2148
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987431339342, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987431339343, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: LeftHandIsValid
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81452bf225f55a54b87f08a212257ac0, type: 3}
