@@ -1415,6 +1415,21 @@ PrefabInstance:
       propertyPath: GrabPoints.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2198031987235772166, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0136
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987235772166, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2611
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198031987235772166, guid: 81452bf225f55a54b87f08a212257ac0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1263
+      objectReference: {fileID: 0}
     - target: {fileID: 2198031987294098070, guid: 81452bf225f55a54b87f08a212257ac0,
         type: 3}
       propertyPath: HandPose
