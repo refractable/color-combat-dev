@@ -430,12 +430,12 @@ PrefabInstance:
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_Text
-      value: '<i>How are you doing?</i>
+      value: 'How are you doing, my friend?
 
-        
+        I pray all is well.
 
-        I hope your heart is
-        light,
+        I
+        hope your heart is light,
 
         And your day is shining bright.
 
@@ -449,7 +449,7 @@ PrefabInstance:
         But I hope one
         day to find
 
-        A sign of my own in American Sign Language.
+        A friend of my own kind.
 
         
 
