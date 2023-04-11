@@ -420,6 +420,203 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &762912573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Text
+      value: '<i>How are you doing?</i>
+
+        
+
+        I hope your heart is
+        light,
+
+        And your day is shining bright.
+
+        
+
+        My
+        name is Suzan,
+
+        Known as Suzan the sign,
+
+        But I hope one
+        day to find
+
+        A sign of my own in American Sign Language.
+
+        
+
+        Though
+        I cannot hear,
+
+        My vision is always clear.
+
+        I see the beauty
+        of this world
+
+        In every moment right here.
+
+        
+
+        So
+        if you ever need a hand,
+
+        I''ll be here to understand,
+
+        To
+        lend my sight and lend my love,
+
+        And guide you to the heavens above.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928621777531013208, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928621777531013208, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.882994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.882994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.882994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.963
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.813
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.581
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.4110287
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.012383375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9114669
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.011414711
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 228.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.756
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Name
+      value: TextBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937642, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551268740539956, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Text
+      value: '<i>Weapon Notes : </i>
+
+
+        - Weapons can be configured with infinite
+        ammo, physical reload, or timer.
+
+
+        - Press A / X to Release Slide.
+        Press B / Y to eject clips.
+
+
+        - Ammo Capacity is 1:1 with magazine
+        size : bullets are removed from the clip for each shot.
+
+
+        - Y ou
+        can grab ammo from your waist holster when you have a weapon equipped
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551269173411429, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_DynamicPixelsPerUnit
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5759788175828937642, guid: d1196da97cc726d48bb5c44c053d9cef, type: 3}
+    - {fileID: 8597551269173411426, guid: d1196da97cc726d48bb5c44c053d9cef, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d1196da97cc726d48bb5c44c053d9cef, type: 3}
 --- !u!1001 &818925598
 PrefabInstance:
   m_ObjectHideFlags: 0
