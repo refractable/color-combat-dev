@@ -11,7 +11,7 @@ public class ReloadOnXButton : MonoBehaviour
     {
         // Find the right controller
         List<InputDevice> devices = new List<InputDevice>();
-        InputDevices.GetDevicesAtXRNode(XRNode.RightHand, devices);
+        InputDevices.GetDevicesAtXRNode(XRNode.LeftHand, devices);
         if (devices.Count > 0)
         {
             rightController = devices[0];
