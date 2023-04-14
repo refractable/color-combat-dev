@@ -11320,50 +11320,15 @@ PrefabInstance:
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_Text
-      value: 'How are you doing, my friend?
+      value: '<b>Welcome to Color Combat!</b> Are you ready to experience an immersive paintball experience? First, let's learn how to play!
 
-        I pray all is well.
+To move about, use the left thumbstick on your VR controller. Tilt the thumbstick in the direction you'd like to move, and use your right thumbstick to look left or right.
 
-        I
-        hope your heart is light,
+<b>Next</b>, grab your paintball gun using your right side grip button. Once you have the gun in your hand, load it with the Co2 canister by moving it near the attachment point and releasing.
 
-        And your day is shining bright.
+To chamber a paintball, pull back the slide on the side of the gun and release! Now, it's time to fire! Take aim at the targets and pull the right trigger to fire. How many targets can you hit?
 
-
-
-        My
-        name is Suzan,
-
-        Known as Suzan the sign,
-
-        But I hope one
-        day to find
-
-        A friend of my own kind.
-
-
-
-        Though I cannot
-        hear,
-
-        My vision is always clear.
-
-        I see the beauty of this
-        world
-
-        In every moment right here.
-
-
-
-        So if you ever need
-        a hand,
-
-        I''ll be here to understand,
-
-        To lend my sight and
-        lend my love,
-
-        And guide you to the heavens above.'
+When you're all set, push on the I'm Ready! button located on the left. <b>Good luck!</b>'
       objectReference: {fileID: 0}
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
