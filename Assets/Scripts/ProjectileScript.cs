@@ -22,7 +22,7 @@ public class ProjectileScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player" && col.gameObject.tag == "Head")
         {
             Destroy(gameObject);
         }

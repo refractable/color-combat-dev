@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Counter : MonoBehaviour
 {
@@ -29,15 +30,8 @@ public class Counter : MonoBehaviour
         if (timer <= 0f)
         {
             // call your function here
-            DoSomething();
-
+            SceneManager.LoadScene("YouWin");
             textMesh.text = "DONE!";
         }
-    }
-
-    void DoSomething()
-    {
-        // your function code goes here
-        Debug.Log("Done!");
     }
 }

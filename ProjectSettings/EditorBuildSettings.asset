@@ -14,9 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HarvestHavokTutorial.unity
     guid: f0b908cb715bc754c8e3727b79c0ec78
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: db7a14fd4418c87439172dd0f5f63da3
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
-    guid: 631a3c191874b0e46917f3cf24510c47
+    guid: b77045208d549ff4d9f235751a794156
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
