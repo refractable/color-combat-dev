@@ -11335,6 +11335,7 @@ PrefabInstance:
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_Text
+<<<<<<< HEAD
       value: 'Welcome to Color Combat!
 
 
@@ -11360,6 +11361,17 @@ PrefabInstance:
 
         Press on the "I''m Ready" button when
         you want to start the actual game!'
+=======
+      value: '<b>Welcome to Color Combat!</b> Are you ready to experience an immersive paintball experience? First, let's learn how to play!
+
+To move about, use the left thumbstick on your VR controller. Tilt the thumbstick in the direction you'd like to move, and use your right thumbstick to look left or right.
+
+<b>Next</b>, grab your paintball gun using your right side grip button. Once you have the gun in your hand, load it with the Co2 canister by moving it near the attachment point and releasing.
+
+To chamber a paintball, pull back the slide on the side of the gun and release! Now, it's time to fire! Take aim at the targets and pull the right trigger to fire. How many targets can you hit?
+
+When you're all set, push on the I'm Ready! button located on the left. <b>Good luck!</b>'
+>>>>>>> d34ab2b81946f159077858daba2a0240d4c15d4b
       objectReference: {fileID: 0}
     - target: {fileID: 3819461241045042490, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
