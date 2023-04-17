@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 8179559549584198799}
   - component: {fileID: 1617075437836214339}
   - component: {fileID: 857965906688937770}
-  m_Layer: 2
+  - component: {fileID: -9055843120091738792}
+  m_Layer: 0
   m_Name: Projectile
   m_TagString: Projectile
   m_Icon: {fileID: 0}
@@ -229,8 +230,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HitFXPrefab: {fileID: 3454612190511497970, guid: fa39ce2ce96bec94b82f2c8124ce3930,
     type: 3}
-  Damage: 25
-  AddRigidForce: 5
+  Damage: 100
+  AddRigidForce: 0
   ValidLayers:
     serializedVersion: 2
     m_Bits: 1537
@@ -239,3 +240,16 @@ MonoBehaviour:
   onDealtDamageEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-9055843120091738792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449094533667961452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0313e8b89f4abf64c8224730313871a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 3414205326389724041, guid: aef22d780a7ac4543b81fbaef7b83c20, type: 3}

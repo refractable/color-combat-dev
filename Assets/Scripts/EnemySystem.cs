@@ -33,10 +33,8 @@ public class EnemySystem : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-
         if (col.gameObject.tag == "Projectile")
         {
-            Destroy(gameObject);
         }
     }
 }

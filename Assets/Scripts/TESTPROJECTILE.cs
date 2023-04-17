@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class TESTPROJECTILE : MonoBehaviour
 {
-    private float speed = 30;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,15 +13,14 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
     }
 
-    void FixedUpdate()
+    void OnColllisionEnter(Collision col)
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        if (col.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
     }
-
-    void OnCollisionEnter(Collision collision)
-	{
-        Destroy(gameObject);
-	}
 }

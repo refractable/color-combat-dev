@@ -9,6 +9,7 @@ TagManager:
   - Border
   - Head
   - EnemyProjectile
+  - Ammo
   layers:
   - Default
   - TransparentFX
