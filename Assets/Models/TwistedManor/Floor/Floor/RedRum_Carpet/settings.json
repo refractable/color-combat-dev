@@ -1,0 +1,23 @@
+{
+  "prompt_text": "loop cut, houndstooth red casino carpet, high quality, extreme fine details, photorealistic, extreme close up",
+  "patch": {
+    "ext": "png",
+    "dtype": "uint8",
+    "width": 512,
+    "height": 512,
+    "url": "https://static-dev.withpoly.com/v3/textures/patches/16c9f15a-ebd8-4a3d-8136-ed6f80d1f604.png",
+    "patch_id": "9NSpxLhCi6"
+  },
+  "seamless_prompt_text": "loop cut, houndstooth red casino carpet, high quality, extreme fine details, photorealistic, extreme close up",
+  "seamless_patch_scale": 0.98,
+  "upscale_prompt_text": "loop cut, houndstooth red casino carpet, high quality, extreme fine details, photorealistic, extreme close up",
+  "upscale_resolution": 2048,
+  "is_seamless": true,
+  "pbr_mode": "fabric",
+  "pbr_generate_color": true,
+  "pbr_generate_normal": true,
+  "pbr_generate_height": true,
+  "pbr_generate_ao": true,
+  "pbr_generate_roughness": true,
+  "pbr_generate_metallic": false
+}
