@@ -19,4 +19,5 @@ public class HikorasEnemyScript : MonoBehaviour
             enemy.SetDestination(target.position);
         }
     }
+    
 }
