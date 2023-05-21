@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07872804, g: 0.23627618, b: 0.85835534, a: 1}
+  m_IndirectSpecularColor: {r: 0.07870288, g: 0.2362799, b: 0.85836184, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -218,90 +218,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 49.328, y: -127.519, z: -104.544}
---- !u!1001 &221364860
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 451587774818452238, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_text
-      value: Replay?
-      objectReference: {fileID: 0}
-    - target: {fileID: 1916293723849549259, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: HarvestHavok
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.316
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.772
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.397
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8451883653967915889, guid: 2ea4775d226e03540946885e14d03ef7,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayButton
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2ea4775d226e03540946885e14d03ef7, type: 3}
 --- !u!1001 &270211568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -327,17 +243,17 @@ PrefabInstance:
     - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Titlescreen
+      value: NewMainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.13
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
@@ -960,7 +876,7 @@ RectTransform:
   m_Children:
   - {fileID: 1804320530}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
