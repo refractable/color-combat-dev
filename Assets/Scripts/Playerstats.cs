@@ -42,5 +42,10 @@ public class Playerstats : MonoBehaviour
             TakeDamage(10f);
             Debug.Log("Hit");
         }
+        if(col.gameObject.tag == "Enemy2")
+        {
+            TakeDamage(10f);
+            Destroy(col.gameObject);
+        }
     }
 }

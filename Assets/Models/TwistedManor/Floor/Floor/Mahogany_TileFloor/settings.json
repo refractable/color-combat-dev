@@ -1,0 +1,23 @@
+{
+  "prompt_text": "mahogany floor tiles arranged in an intricate geometrical pattern, high quality, luxury finish, highly detailed",
+  "patch": {
+    "ext": "png",
+    "dtype": "uint8",
+    "width": 512,
+    "height": 512,
+    "url": "https://static-dev.withpoly.com/v3/textures/patches/8a53ca51-5ddd-4ee1-b12f-a963ab601f98.png",
+    "patch_id": "ZLmzPeWRig"
+  },
+  "seamless_prompt_text": "mahogany floor tiles arranged in an intricate geometrical pattern, high quality, luxury finish, highly detailed",
+  "seamless_patch_scale": 0.8,
+  "upscale_prompt_text": "mahogany floor tiles arranged in an intricate geometrical pattern, high quality, luxury finish, highly detailed",
+  "upscale_resolution": 2048,
+  "is_seamless": true,
+  "pbr_mode": "polished",
+  "pbr_generate_color": true,
+  "pbr_generate_normal": true,
+  "pbr_generate_height": true,
+  "pbr_generate_ao": true,
+  "pbr_generate_roughness": true,
+  "pbr_generate_metallic": false
+}
