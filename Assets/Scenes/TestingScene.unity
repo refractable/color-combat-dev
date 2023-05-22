@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07872804, g: 0.23627618, b: 0.85835534, a: 1}
+  m_IndirectSpecularColor: {r: 0.078731626, g: 0.23627919, b: 0.8583547, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -124,91 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &101858186
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1667372213}
-    m_Modifications:
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19.599716
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09625533
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.6888266
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6990428
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.71507984
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599209577494941038, guid: b05ed0f46bb83504795b5625d7772d37,
-        type: 3}
-      propertyPath: m_Name
-      value: PaintballAmmo
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b05ed0f46bb83504795b5625d7772d37, type: 3}
---- !u!4 &101858187 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1283326261177413161, guid: b05ed0f46bb83504795b5625d7772d37,
-    type: 3}
-  m_PrefabInstance: {fileID: 101858186}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &106396735
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,7 +354,7 @@ PrefabInstance:
 
         And your day is shining bright.
 
-        
+
 
         My
         name is Suzan,
@@ -451,27 +366,27 @@ PrefabInstance:
 
         A friend of my own kind.
 
-        
 
-        Though
-        I cannot hear,
+
+        Though I cannot
+        hear,
 
         My vision is always clear.
 
-        I see the beauty
-        of this world
+        I see the beauty of this
+        world
 
         In every moment right here.
 
-        
 
-        So
-        if you ever need a hand,
+
+        So if you ever need
+        a hand,
 
         I''ll be here to understand,
 
-        To
-        lend my sight and lend my love,
+        To lend my sight and
+        lend my love,
 
         And guide you to the heavens above.'
       objectReference: {fileID: 0}
@@ -785,9 +700,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2046633209}
-  - {fileID: 543450652720479706}
   - {fileID: 1753325678}
-  - {fileID: 101858187}
   - {fileID: 660538509133392556}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1299,12 +1212,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6013525563609333425}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &543450652720479706 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-    type: 3}
-  m_PrefabInstance: {fileID: 2198031986749793718}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &543450653719412667 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7333784243022761674, guid: cd26259b8615da546beaa976e0ba695f,
@@ -1617,165 +1524,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4039099712102418268}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2198031986749793718
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1667372213}
-    m_Modifications:
-    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: InternalAmmo
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: ReloadMethod
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: RecoilForce.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: MustChamberRounds
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: ValidLayers.m_Bits
-      value: 1281
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315494898245370580, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315494898245370582, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_Name
-      value: PaintballGun
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19.634016
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09625527
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.000299
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1804328334489901164, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031985967697267, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: AcceptableMagazineName
-      value: PistolClip
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987205843388, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: GrabPoints.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987235772166, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.0136
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987235772166, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2611
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987235772166, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.1263
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987294098070, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: HandPose
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987294098070, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: RightHandIsValid
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987294098089, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2236
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987294098089, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0311
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987431339342, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2148
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987431339342, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.1112
-      objectReference: {fileID: 0}
-    - target: {fileID: 2198031987431339343, guid: 81452bf225f55a54b87f08a212257ac0,
-        type: 3}
-      propertyPath: LeftHandIsValid
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 81452bf225f55a54b87f08a212257ac0, type: 3}
 --- !u!1001 &2302955700855504431
 PrefabInstance:
   m_ObjectHideFlags: 0
