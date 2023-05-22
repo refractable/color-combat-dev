@@ -39,7 +39,7 @@ public class Playerstats : MonoBehaviour
         }
         if (col.gameObject.tag == "Enemy")
         {
-            TakeDamage(10f);
+            TakeDamage(30f);
             Debug.Log("Hit");
         }
         if(col.gameObject.tag == "Enemy2")
