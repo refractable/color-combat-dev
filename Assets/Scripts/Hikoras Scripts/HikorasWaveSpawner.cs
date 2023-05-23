@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HikorasWaveSpawner : MonoBehaviour
 {
@@ -106,6 +107,10 @@ public class HikorasWaveSpawner : MonoBehaviour
                 Instantiate(enemy4, new Vector3(25f, 15f, -49f), enemy4.transform.rotation);
                 enemySpawn4++;
             }
+        }
+        if (level == 5)
+        {
+            SceneManager.LoadScene("YouWin");
         }
     }
 }
