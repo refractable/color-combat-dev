@@ -9774,6 +9774,7 @@ MonoBehaviour:
   enemy1: {fileID: 3464085725355902301, guid: af2d6608f4887a349861b741cf4a9f13, type: 3}
   enemy2: {fileID: 4856294549098023836, guid: 1279beb3555ebdb4a9e90c97a93ecb54, type: 3}
   enemy3: {fileID: 6802901899612995271, guid: 0330d17f44fc06d4d816285336fdee2d, type: 3}
+  enemy4: {fileID: 4792915274063808081, guid: 1786c622d8d4c904787cd1e5a64680a3, type: 3}
 --- !u!4 &533183753
 Transform:
   m_ObjectHideFlags: 0

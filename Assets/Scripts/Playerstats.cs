@@ -19,7 +19,7 @@ public class Playerstats : MonoBehaviour
     }
     private void Update()
     {
-        if (currentHealth == 0)
+        if (currentHealth <= 0)
         {
             SceneManager.LoadScene("GameOver");
         }
@@ -42,9 +42,24 @@ public class Playerstats : MonoBehaviour
             TakeDamage(30f);
             Debug.Log("Hit");
         }
-        if(col.gameObject.tag == "Enemy2")
+        if(col.gameObject.tag == "Enemy1")
         {
             TakeDamage(10f);
+            Destroy(col.gameObject);
+        }
+        if (col.gameObject.tag == "Enemy2")
+        {
+            TakeDamage(15f);
+            Destroy(col.gameObject);
+        }
+        if (col.gameObject.tag == "Enemy3")
+        {
+            TakeDamage(20f);
+            Destroy(col.gameObject);
+        }
+        if (col.gameObject.tag == "Enemy4")
+        {
+            TakeDamage(50f);
             Destroy(col.gameObject);
         }
     }

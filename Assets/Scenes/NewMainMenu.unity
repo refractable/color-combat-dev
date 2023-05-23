@@ -258,6 +258,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.598
       objectReference: {fileID: 0}
+    - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Deez
+      objectReference: {fileID: 0}
     - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2957,6 +2962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.598
+      objectReference: {fileID: 0}
+    - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Safehouse
       objectReference: {fileID: 0}
     - target: {fileID: 8137932543838504295, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
