@@ -1,0 +1,23 @@
+{
+  "prompt_text": "Alien carpet",
+  "patch": {
+    "ext": "png",
+    "dtype": "uint8",
+    "width": 512,
+    "height": 512,
+    "url": "https://static-dev.withpoly.com/v3/textures/patches/6e9d80b3-f181-4d6d-bf11-132d7118703b.png",
+    "patch_id": "jtf85afaua"
+  },
+  "seamless_prompt_text": "Alien carpet",
+  "seamless_patch_scale": 0.8,
+  "upscale_prompt_text": "Alien carpet",
+  "upscale_resolution": 2048,
+  "is_seamless": true,
+  "pbr_mode": "fabric",
+  "pbr_generate_color": true,
+  "pbr_generate_normal": true,
+  "pbr_generate_height": true,
+  "pbr_generate_ao": true,
+  "pbr_generate_roughness": true,
+  "pbr_generate_metallic": false
+}

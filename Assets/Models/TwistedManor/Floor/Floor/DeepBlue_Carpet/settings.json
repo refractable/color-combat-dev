@@ -1,0 +1,22 @@
+{
+  "prompt_text": "deep blue carpet, very thick and luxurious, soft and fibrous",
+  "patch": {
+    "ext": "png",
+    "dtype": "uint8",
+    "width": 512,
+    "height": 512,
+    "url": "https://static-dev.withpoly.com/v3/textures/patches/a88e0307-b704-4774-a3f1-379495fa6c6f.png",
+    "patch_id": "LJLSWwSusd"
+  },
+  "seamless_prompt_text": "deep blue carpet, very thick and luxurious, soft and fibrous",
+  "seamless_patch_scale": 0.8,
+  "upscale_prompt_text": "deep blue carpet, very thick and luxurious, soft and fibrous",
+  "upscale_resolution": 2048,
+  "is_seamless": true,
+  "pbr_mode": "matte",
+  "pbr_generate_color": true,
+  "pbr_generate_normal": true,
+  "pbr_generate_height": true,
+  "pbr_generate_ao": true,
+  "pbr_generate_roughness": true
+}

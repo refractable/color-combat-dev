@@ -1,0 +1,23 @@
+{
+  "prompt_text": "Marble floor with checker map super high definition very shiny and dirty",
+  "patch": {
+    "ext": "png",
+    "dtype": "uint8",
+    "width": 512,
+    "height": 512,
+    "url": "https://static-dev.withpoly.com/v3/textures/patches/59b22dbe-4d2e-42a6-a7ec-482de6429805.png",
+    "patch_id": "E4KaE6jbrJ"
+  },
+  "seamless_prompt_text": "Marble floor with checker map super high definition very shiny and dirty",
+  "seamless_patch_scale": 1.04,
+  "upscale_prompt_text": "Marble floor with checker map super high definition very shiny and dirty",
+  "upscale_resolution": 2048,
+  "is_seamless": true,
+  "pbr_mode": "polished",
+  "pbr_generate_color": true,
+  "pbr_generate_normal": true,
+  "pbr_generate_height": false,
+  "pbr_generate_ao": true,
+  "pbr_generate_roughness": true,
+  "pbr_generate_metallic": false
+}

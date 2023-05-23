@@ -6,23 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Titlescreen.unity
-    guid: dcc8a02c7d72cf24ebb353571c057dbc
+    path: Assets/Scenes/NewMainMenu.unity
+    guid: 768cc42c4ee38ee4e8fe0a445b0505c0
   - enabled: 1
-    path: Assets/Scenes/HarvestHavok.unity
-    guid: ae401e42bdf771f41b101471b5926efe
+    path: Assets/Scenes/TwistedManor.unity
+    guid: 185cdee053588f84bb2345d3e4231383
   - enabled: 1
-    path: Assets/Scenes/HarvestHavokTutorial.unity
-    guid: f0b908cb715bc754c8e3727b79c0ec78
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/Deez.unity
+    guid: e0cc2bfcc1c96944c94efadc4dc998a4
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: b77045208d549ff4d9f235751a794156
   - enabled: 1
     path: Assets/Scenes/YouWin.unity
     guid: db7a14fd4418c87439172dd0f5f63da3
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: b77045208d549ff4d9f235751a794156
+    path: Assets/Scenes/HarvestHavok.unity
+    guid: ae401e42bdf771f41b101471b5926efe
+  - enabled: 1
+    path: Assets/Scenes/Safehouse.unity
+    guid: 600a46e785c8de94ca0265fda9962ff1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

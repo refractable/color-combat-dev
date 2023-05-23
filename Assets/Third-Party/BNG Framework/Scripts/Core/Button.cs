@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 namespace BNG {
     /// <summary>
@@ -54,6 +55,9 @@ namespace BNG {
         float SpringForce = 1500f;
         Vector3 buttonDownPosition;
         Vector3 buttonUpPosition;
+
+        public Transform Spawnpoint;
+        public GameObject AmmoPrefab;
 
 
         void Update() {
@@ -214,5 +218,9 @@ namespace BNG {
             Gizmos.color = Color.red;
             Gizmos.DrawLine(upPosition, downPosition);
         }
+        public void SpawnAmmo()
+            {
+                Instantiate(AmmoPrefab, Spawnpoint.position, Spawnpoint.rotation );
+            }
     }
 }
