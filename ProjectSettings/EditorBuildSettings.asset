@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TwistedManor.unity
     guid: 185cdee053588f84bb2345d3e4231383
   - enabled: 1
-    path: Assets/Scenes/Deez.unity
-    guid: e0cc2bfcc1c96944c94efadc4dc998a4
-  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: b77045208d549ff4d9f235751a794156
   - enabled: 1
@@ -24,8 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/HarvestHavok.unity
     guid: ae401e42bdf771f41b101471b5926efe
   - enabled: 1
+    path: Assets/Salomon/SalomonFarmMap.unity
+    guid: 085a1966bf840cb49b5ec9c1939ceff1
+  - enabled: 1
+    path: Assets/Scenes/Deez.unity
+    guid: 484278b9d08e52d4f946914e3e15a7c3
+  - enabled: 1
     path: Assets/Scenes/Safehouse.unity
-    guid: 600a46e785c8de94ca0265fda9962ff1
+    guid: 6b7fb27b0cb0b334bb6214d2a1abd057
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
