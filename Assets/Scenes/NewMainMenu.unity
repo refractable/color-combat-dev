@@ -275,6 +275,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
         type: 3}
+      propertyPath: ButtonClick
+      value: 
+      objectReference: {fileID: 8300000, guid: ff81f6c555ec65344a9d293166b903c9, type: 3}
+    - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
+        type: 3}
+      propertyPath: ButtonClickUp
+      value: 
+      objectReference: {fileID: 8300000, guid: ff81f6c555ec65344a9d293166b903c9, type: 3}
+    - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5864711178061192650, guid: 2ea4775d226e03540946885e14d03ef7,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Deez
       objectReference: {fileID: 0}
@@ -1260,7 +1275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.25}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564970474
@@ -1285,7 +1300,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Wild Wild
 
-    West'
+    West
+
+    WIP
+
+    Do Not
+
+    Plays'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

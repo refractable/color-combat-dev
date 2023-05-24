@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Salomon/SalomonFarmMap.unity
     guid: 085a1966bf840cb49b5ec9c1939ceff1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Deez.unity
     guid: 484278b9d08e52d4f946914e3e15a7c3
   - enabled: 1
