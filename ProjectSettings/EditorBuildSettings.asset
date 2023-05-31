@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Safehouse.unity
     guid: 6b7fb27b0cb0b334bb6214d2a1abd057
+  - enabled: 1
+    path: Assets/Scenes/LiminalCatastrophe.unity
+    guid: 539f4d49a36b4924eb0e620a61c2e11a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
